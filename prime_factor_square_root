@@ -1,0 +1,5 @@
+If a number NN has a prime factor larger than N−−√N , then it surely has a prime factor smaller than N−−√N.
+
+So it's sufficient to search for prime factors in the range [1,N−−√][1,N], and then use them in order to compute the prime factors in the range [N−−√,N][N,N].
+
+If no prime factors exist in the range [1,N−−√][1,N], then NN itself is prime and there is no need to continue searching beyond that range.
